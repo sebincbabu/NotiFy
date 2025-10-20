@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/idTVDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select a Date"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp" />
+
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Reminder Title"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/setDateReminderBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Date Reminder"
+        android:backgroundTint="@color/reminder_button_bg"
+        android:textColor="@color/reminder_button_text"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/setTimeReminderBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Time Reminder"
+        android:backgroundTint="@color/time_button_bg"
+        android:textColor="@color/time_button_text"
+        android:visibility="gone" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/bottomTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notify"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        />
+
+
+</LinearLayout>

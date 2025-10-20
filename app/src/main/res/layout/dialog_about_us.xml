@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/aboutIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="App Icon"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/aboutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sebin Babu"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Developer"
+        android:textColor="#444444"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/aboutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notify: A simple reminder app to manage your daily tasks and birthdays."
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white" />
+</LinearLayout>
