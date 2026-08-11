@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
     private var selectedDay = 0
 
     @SuppressLint("MissingInflatedId")
-    git config --global user.name "SebinBabu7"git config --global user.name "SebinBabu7"git config --global user.name "Your Name"
     override fun onCreate(savedInstanceState: Bundle?) {
         supportActionBar?.hide()
         super.onCreate(savedInstanceState)
